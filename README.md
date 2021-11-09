@@ -1,10 +1,7 @@
 # Lab5_Part3-Embedded-
 #include <msp430.h>
+#define RED LED BIT6 // Defines the red LED  
 
-#define RED LED BIT6
-/**
- * main.c
- */
 void main(void)
 {
     P1DIR |= BIT6;
